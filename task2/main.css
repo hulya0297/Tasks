@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.backgorund{
+    width: 1038px;
+    height: 938px;
+    background-color:#DAD6D6;
+    padding: 43px;
+    margin: 43px auto;
+    
+}
+
+.form{
+    border: none;
+    background-color: white;
+    border-radius: 4px;
+    width: 400px;
+    height: 852px;
+    margin: 0px auto;
+    padding: 40px;
+
+}
+
+h1{
+    font-family: outfit;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600px;
+    line-height: normal;
+    margin-bottom:20px ;
+}
+
+.line{
+    width: 320px;
+    height: 1px; 
+    background-color:#D7DEDD;
+    margin-bottom: 20px;
+    }
+
+
+    
+    label{
+        display: inline-block;
+        margin-bottom: 5px;
+        
+    }
+
+    input{
+        border-radius: 6px;
+        border: 1px solid #D7DEDD ; 
+        width:  320px;
+        height: 40px;
+        padding: 8px; 
+        margin-bottom: 8px;
+        display: inline-block; 
+    }
+     .pre{
+        width: 48px;
+        height: 40px;
+        
+
+     }
+     .number{
+        width: 268px;
+        height: 40px;
+     }
+
+     select{
+        border-radius: 6px;
+        border: 1px solid #D7DEDD ; 
+        width:  320px;
+        height: 40px;
+        padding: 8px; 
+        margin-bottom: 8px;
+        display: inline-block; 
+     }
+        
+        .message{
+        width:  320px;
+        height: 129px;
+        }
+        
+     .checkbox{
+        height: 16px;
+        width: 16px;
+     }
+     .button{
+        border-radius: 6px;
+        border: 1px solid #5732EE ; 
+        background-color: #5732EE;
+        color: white;
+        width:  320px;
+        height: 40px;
+        padding: 8px; 
+        margin-bottom: 8px;
+        display: inline-block; 
+        
+     }
+    
