@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    width: 700px ;
+    height: 600px;
+    background-color: #F3F8FEFF ;
+    margin: 30px auto;
+    position: relative;
+
+}
+
+.border{
+    width: 550px;
+    height: 230px;
+    border: 10px solid #CDD4E6FF;
+    border-radius: 10px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+   
+    
+}
+
+.login{
+    width: 530px;
+    height: 210px;
+    background-color: #4868D9FF;
+    border-radius: 10px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.title{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.mail{
+    width: 300px;
+    height: 45px;
+    border:none;
+    background-color: #8096DFFF;
+    border-radius: 20px;
+    position: absolute;
+    top: 70%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+input{
+    background-color:  #8096DFFF;
+    border: none;
+    margin: 10px;
+    padding: 5px;
+    color: white;
+}
+
+input::placeholder {
+    color: white;
+    }
+
+    .iconborder{
+        width: 30px;
+        height: 30px;
+        border: none;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 7px;
+        right:5px;
+        background-color: white;
+        
+    }
+
+    .icon{
+        padding-top: 6px;
+        padding-left: 6px;
+    }
+
+    .user1{
+        width: 50px;
+        height: 50px;
+        border: 4px solid white;
+        border-radius: 50%;
+        position: absolute;
+        bottom:-66px;
+        left: -30px;
+        background-color: white;
+        display: flex;
+
+        
+        
+
+    }
+    
+
+    .user2{
+        width: 50px;
+        height: 50px;
+        border: 4px solid white;
+        border-radius: 50%;
+        position: absolute;
+        bottom:-66px;
+        left:45px;
+        background-color: white;
+
+    }
+
+    
+    .user3{
+        width: 50px;
+        height: 50px;
+        border: 4px solid white;
+        border-radius: 50%;
+        position: absolute;
+        bottom:-66px;
+        left: 120px;
+        background-color: white;
+        display: flex;
+    }
+
+
+    .user4{
+        width: 50px;
+        height: 50px;
+        border: 4px solid white;
+        border-radius: 50%;
+        position: absolute;
+        bottom: -66px;
+        right: 55px;
+        background-color: white;
+    }
+
+    .user5{
+        width: 50px;
+        height: 50px;
+        border: 4px solid white;
+        border-radius: 50%;
+        position: absolute;
+        bottom: -66px;
+        right: -25px;
+        background-color: white;
+    } 
+
+
+    .photo{
+       
+            max-width:100%;
+            max-height: 100%;
+            display: block;
+            margin: auto;
+            border-radius: 50%;
+            }
+    
+
+
+    
+  
