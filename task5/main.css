@@ -1,0 +1,813 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+
+.continer{
+    width: 90%;
+    margin: 0px 50px;
+    padding: 0px 50px;
+  
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    font-family: "Manrope" sans-serif;
+    color:rgba(10, 11, 13, 1) 
+
+}
+p{
+    font-family: "Manrope" sans-serif;
+    color: rgba(41, 45, 53, 1);
+}
+header{
+    width:100%;
+    height: 60px;
+     gap: 320px;
+   background-color:rgba(255, 255, 255, 1) ;
+    box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.08);
+    display:fixed;
+}
+aside{
+    width:494px ;
+    height:288px ;
+    gap: 52px;
+    display: flex;
+    flex-direction: column;
+    
+}
+footer{
+    width: 100%;
+    height: 450px;
+    background-color: rgba(102, 112, 133, 1);
+}
+.headerline{
+    width: 100%;
+    height:60px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+.accounting{
+    width: 113px;
+    height: 32px;
+    text-align: center;
+    font-size:20px ;
+    font-weight: 700;
+    line-height: 32px;
+    
+}
+
+.accounting p{
+    color: rgba(49, 19, 77, 1);
+}
+.navbar{
+    width: 393px;
+    height: 24px;
+    gap: 24px;
+    
+   
+   
+    
+}
+.navmenu{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+   
+}
+
+
+.header_button{
+    width: 80px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgba(27, 158, 75, 1);
+    padding: 8px 16px;
+    gap: 12px;
+
+}
+.header_button a{
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+/* main{
+    margin: 60px 20px;
+} */
+.introduction{
+    width: 90%;
+    height: 449px;
+    display: flex;
+    align-items: center;
+
+}
+
+.aside_txts{
+    width: 476px;
+    height: 188px;
+    gap: 20px;
+    
+  
+}
+.introduction_txt1{
+    width:476px ;
+    height:120px ;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 700;
+
+}
+.introduction_txt1 span{
+    color: rgba(168, 85, 247, 1);
+}
+.introduction_txt2{
+    width:405px ;
+    height:48px ;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 18px;
+   
+   
+}
+.introduction_btn{
+    width:166px ;
+    height: 48px;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 40px;
+    background-color: rgba(27, 158, 75, 1);
+   
+}
+
+.introduction_btn a{
+    color: white;
+    font-size: 16px;
+    font-weight:500 ;
+    line-height: 24px;
+    text-align: center;
+}
+
+.consultativesales_img{
+    width:550px ;
+    height:449px ;
+
+    
+
+}
+.consultativesales_img img{
+    width: 550px;
+    height: 449px;
+    
+}
+.service{
+    width: 100%;
+    height: 564px; 
+    display: flex;
+    align-items:center ;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+ 
+}
+.ourservices{
+    width:215px ;
+    height: 52px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600 ;
+    line-height: 52px;
+    margin-bottom: 35px;
+    
+
+
+}
+
+.ourservices_items{
+    width:100% ;
+    height: 500px;
+    
+    
+}
+
+.service_items_card1{
+    width:100% ;
+    height:210px ;
+    row-gap: 24px;
+    display: flex;
+    align-content: space-around;
+   
+}
+
+
+.service_items_card2{
+    width:100% ;
+    height:210px ;
+    row-gap: 14px;
+    margin-top:35px ;
+    display: flex;
+
+    }
+    .service_icons{
+        width: 392px;
+        height: 210px;
+        
+      
+        
+        
+    }
+    .service_txt{
+        width:350px ;
+        height: 80px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 20px;
+        
+    }
+
+.advantages{
+    width:100% ;
+    height:536px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+ 
+}
+
+
+.ouradvantages{
+    width:300px ;
+    height: 52px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600 ;
+    line-height: 52px;
+    margin-bottom: 35px;
+   
+    
+}
+
+.ouradvantage_items{
+    width:100% ;
+    height: 436px;
+    display: flex;
+    justify-content: space-between;
+   
+
+
+}
+
+.advantages_img_box{
+    width: 330px;
+    height:436px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+   
+
+}
+
+.advantages_img{
+   width: 250px;
+    height: 250px;
+
+    
+}
+.advantages_img img{
+    width: 250px;
+    height:250px;
+}
+
+.advantages_txt{
+    text-align: center;
+    width:334px ;
+    height: 95px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 20px;
+   }
+    
+
+
+.pricing{
+    width: 100%;
+    height: 798px;
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-around;
+    align-items: center;
+}
+.title_pricing{
+    width: 120px;
+    height:52px ;
+    font-size: 36px;
+    font-weight:600;
+    line-height:52px ;
+    margin-top: 5px;
+  
+}
+.best_seller{
+    width: 145px;
+    height: 48px;
+    border: 2px solid rgba(64, 27, 99, 1);;
+    border-radius: 4px 4px 0px 0px;
+    padding: 10px 16px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600 ;
+    line-height: 28px;
+    margin-top: 42px;
+    
+}
+
+.pricing_boxs{
+    width: 100%;
+    height: 660px;
+    display: flex;
+    gap: 40px;
+}
+
+.pricing_box_item{
+    width:390px ;
+    height:640px ;
+    border: 1px solid rgba(14, 79, 38, 1);
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+  
+}
+.pricing_box_inside{
+    width:230px ;
+    height: 400px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.pricing_seller{
+    width: 160px;
+    height: 32px;
+    text-align: center;
+    font-size: 15px;
+    font-weight:600;
+    line-height:32px ;
+   
+}
+
+.pricing_seller_items{
+    width: 210px;
+    height: 300px;
+   
+   
+    
+}
+.customs .small_business .established_business{
+    font-size: 16px;
+    font-weight:400 ;
+    line-height: 24px;
+
+
+}
+.pricing_seller_icon{
+    margin: 10px;
+    color: green;
+   
+    
+}
+.xmark i{
+    color: rgba(133, 141, 157, 1)
+
+}
+.xmark span{
+    color: rgba(133, 141, 157, 1)
+
+}
+
+.pricing_month_pay{
+    width: 200px;
+    height:100px ;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.month_pay{
+    width: 110px;
+    height: 30px;
+    text-align: center;
+
+    
+}
+.month_pay span{
+    font-size:24px ;
+    font-weight:700 ;
+    line-height:36px ;
+}
+.month_pay p{
+    font-size:24px ;
+    font-weight:500 ;
+    line-height:36px ;
+}
+
+.pricing_btn{
+    width:200px ;
+    height: 40px;
+    border: none;
+    background-color: rgba(27, 158, 75, 1);
+    border-radius: 4px;
+    padding: 8px 16px;
+    color: white;
+}
+
+.clients{
+    width:100% ;
+    height:184px ;
+    background-color:rgba(254, 241, 232, 1) ;
+    margin: 30px 0px;
+ 
+    
+}
+.clients_box{
+    display: flex;
+   justify-content: space-around;
+   padding: 50px ;
+
+  
+}
+
+.clients_item{
+    width: 150px;
+    height: 90px;
+    text-align: center;
+    padding: 18px;
+}
+.customer_feedback{
+    width: 100%;
+    height: 513px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.feedback{
+    width:338px ;
+    height:52px ;
+    font-size:36px ;
+    font-weight: 600 ;
+    line-height: 52px;
+    text-align: center;
+    margin-bottom: 40px;
+ 
+    
+}
+
+.feedback_cards{
+    width: 100%;
+    height: 347px;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.feedback_card{
+    width:350px ;
+    height: 240px;
+    background-color: rgba(246, 238, 254, 1);
+    position: relative;
+}
+
+.feedback_txt1{
+    width: 320px;
+    height:80px ;
+    text-align: center;
+    position: absolute;
+    top:28px;
+    left: 1px;
+
+}
+.feedback_txt2{
+    width:120px ;
+    height: 50px;
+    text-align: center;
+    position: absolute;
+    bottom:30px;
+    left: 110px;
+
+}
+
+.feedback_txt2 span{
+    color: rgba(82, 90, 106, 1);
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.feedback_icon{
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    color: rgba(10, 102, 194, 1);
+}
+
+.feedback_select_button{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.select_button{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgba(208, 213, 221, 1);
+    border: none;
+
+    
+}
+.select_button:nth-child(1){
+    background-color: rgba(102, 112, 133, 1);
+
+}
+.clipped_element{
+    width: 38px;
+    height: 38px;
+    background-color:rgba(246, 238, 254, 1);;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 50% 100%, 0% 70%);
+    position: absolute;
+    bottom: -16px;
+    left: 145px;
+    z-index: -1;
+}
+
+.feedback_img{
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    position: absolute;
+    bottom:-80px;
+    left: 130px;
+}
+.partners{
+    width: 100%;
+    height: 304px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.our_partners{
+    width: 270px;
+    height:52px ;
+    font-size:36px ;
+    font-weight: 600;
+    line-height: 52px;
+    text-align: center;
+}
+.logos{
+    width: 100%;
+    height: 200px;
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.logo_card1 {
+    width:100% ;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_card2{
+    width:100% ;
+    height: 85px;
+    gap: 24px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+
+}
+
+.partner_logo img{
+    width: 200px;
+    height: 80px;
+    
+}
+.questions_box{
+    width: 100% ;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+    
+}
+.question_title_txt{
+    width:462px ;
+    height: 52px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height:52px ;
+}
+
+.inside_question_box{
+    width: 100%;
+    height:450px ;
+    display: flex;
+    justify-content: space-between;
+
+}
+.question_txt{
+    width: 288px;
+    height: 72px;
+    font-size:20px ;
+    line-height:28px ;
+    font-weight: 600;
+}
+
+.questions{
+    width: 600px;
+    height: 450px;
+   
+}
+
+.question_item{
+    width:600px ;
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight:500;
+    line-height: 20px;
+    
+   
+}
+.question_item p{
+    font-size: 12px;
+    font-weight: 24px;
+}
+
+
+
+
+
+
+.create_account{
+    width: 100%;
+    height: 296px;
+    background-color: rgba(254, 241, 232, 1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+   
+ 
+
+}
+
+.create_box{
+    width:557px ;
+    height:136px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.create_txt{
+    width: 557px;
+    height: 48px;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.create_account_btn{
+    width: 557px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.account_btn1{
+    width:228px;
+    height: 48px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgba(27, 158, 75, 1);
+    padding: 12px 20px;
+    color: white;
+}
+
+.account_btn2{
+    width:228px ;
+    height:48px ;
+    border: 1px solid rgba(27, 158, 75, 1);
+    background-color: transparent;
+    color:rgba(20, 118, 56, 1);
+    
+}
+
+.footer_part{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.footer_txt{
+    width:350px ;
+    height:86px ;
+    margin-top: 50px;
+
+}
+.footer_txt span{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 50px;
+    color:rgba(240, 241, 243, 1);
+    
+    
+
+}
+.footer_txt p{
+    font-size:14px ;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(217, 219, 225, 1);
+}
+
+.footer_nav{
+    width:660px ;
+    height:350px ;
+    margin-top: 50px;
+    display: flex;
+
+}
+
+.footer_menu{
+    width:200px ;
+    height:300px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+.footer_menu_title p{
+    width:160px;
+    height: 30px;
+    font-size:20px ;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer_menu_inside{
+    width: 160px;
+    height: 216px;
+    
+
+}
+
+.footer_menu_inside a{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(238, 239, 244, 1);
+
+}
